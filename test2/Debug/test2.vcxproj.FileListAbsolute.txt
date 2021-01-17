@@ -1,0 +1,2 @@
+E:\c语言\c语言练习\2021\测试\test2\Debug\test2.exe
+E:\c语言\c语言练习\2021\测试\test2\Debug\test2.pdb
