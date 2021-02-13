@@ -1,0 +1,2 @@
+E:\c语言\个人作品\游戏类\game\2021\扫雷-2-13\game\Debug\game.exe
+E:\c语言\个人作品\游戏类\game\2021\扫雷-2-13\game\Debug\game.pdb
