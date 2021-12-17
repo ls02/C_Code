@@ -1,0 +1,2 @@
+E:\c语言\Code\2021\April\4-27\1\test-4-27-1\Debug\test-4-27-1.exe
+E:\c语言\Code\2021\April\4-27\1\test-4-27-1\Debug\test-4-27-1.pdb
