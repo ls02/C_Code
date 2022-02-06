@@ -1,0 +1,3 @@
+﻿  test.c
+E:\C++Code\Code\2022\February\6\test-2022-2-6-1\String.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  test-2022-2-6-1.vcxproj -> E:\C++Code\Code\2022\February\6\test-2022-2-6-1\Debug\test-2022-2-6-1.exe
