@@ -1,0 +1,5 @@
+﻿  test.c
+E:\C++Code\Code\2022\February\11\test-2022-2-11-1\test.c(40,40): warning C4013: “malloc”未定义；假设外部返回 int
+E:\C++Code\Code\2022\February\11\test-2022-2-11-1\test.c(46,7): warning C4013: “exit”未定义；假设外部返回 int
+E:\C++Code\Code\2022\February\11\test-2022-2-11-1\test.c(59,6): warning C4013: “free”未定义；假设外部返回 int
+E:\C++Code\Code\2022\February\11\test-2022-2-11-1\test.c(97,42): warning C4013: “realloc”未定义；假设外部返回 int
