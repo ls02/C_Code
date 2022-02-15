@@ -11,7 +11,7 @@ typedef int SLDataType;
 typedef struct SLitNode
 {
 	SLDataType val;
-	SListNode* next;
+	struct SListNode* next;
 }SListNode;
 
 //创建新节点
@@ -29,18 +29,18 @@ extern void SListPushFront(SListNode** ppl, SLDataType val);
 //尾插
 extern void SListPushBack(SListNode** ppl, SLDataType val);
 //在pos位置插入
-extern void SListInsert(SListNode** ppl, size_t pos, SLDataType val);
+extern void SListInsert(SListNode** ppl, SListNode* pos, SLDataType val);
 
 //删接口
 //头删
-extern void SListNodePopFront(SListNode** ppl);
+extern void SListPopFront(SListNode** ppl);
 //尾删
-extern void SListNodePopBack(SListNode** ppl);
+extern void SListPopBack(SListNode** ppl);
 //删除pos位置
-extern void SListNodeErase(SListNode** ppl, size_t pos);
+extern void SListErase(SListNode** ppl, SListNode* pos);
 
 //查接口
-extern size_t SListNodeFind(SListNode* pl, SLDataType val);
+extern SListNode* SListFind(SListNode* pl, SLDataType val);
 
 #endif 
 
