@@ -5,7 +5,7 @@
 #include <time.h>
 using namespace std;
 
-//≈≈–Ú
+//≈≈–Ú1
 namespace ls
 {
 	//÷±Ω”≤Â»Î≈≈–Ú
