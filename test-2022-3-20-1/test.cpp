@@ -14,5 +14,14 @@ int main()
 	b = v[2] - '0';
 	cout << v.at(2) << endl;
 	cout << b;
+	int* p1 = nullptr;
+
+	delete p1;
+	delete p1;
+	const char* s1 = "";
+	char s2 = '\0';
+
+	cout << strlen("");
+
 	return 0;
 }
