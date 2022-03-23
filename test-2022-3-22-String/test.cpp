@@ -4,16 +4,41 @@
 void TestString1()
 {
 	ls::string s1("hello");
-	ls::string s2(s1);
-	ls::string s3;
-	s3 = s1;
+	ls::string s2;
+	s2 += "hell";
+	ls::string s4("qqqqqqqq");
 
-	std::cout << s3 << std::endl;
+	s2.resize(10);
+	s2 += "abcd";
+	//s3.push_back('q');
+	//s2.insert(5, 'a', 10);
+	//s2.push_back('a');
+	//s2.append("abcdefg");
+	//s2.append(s4);
+	std::cout << s2 << std::endl;
+	std::cout << s2.c_str() << std::endl;
+	//ls::string::iterator it = s2.begin();
+
+	//while (it != s2.end())
+	//{
+	//	std::cout << *it << std::endl;
+	//	++it;
+	//}
+	//for (auto e : s2)
+	//{
+	//	std::cout << e << std::endl;
+	//}
+	//std::cout << s2.c_str() << std::endl;
 }
 
 int main()
 { 
 	TestString1();
+	//std::string s1("hello");
+	//s1.append("abcdefg");
+	//s1.reserve();
+	//s1.insert(2, "qq", 10);
+	//std::cout << s1 << std::endl;
 
 	return 0;
 }
