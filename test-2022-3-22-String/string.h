@@ -432,7 +432,7 @@ namespace ls
 		//Îö¹¹º¯Êý
 		~string()
 		{
-			delete _str;
+			delete[] _str;
 			_str = nullptr;
 			_size = 0;
 			_capacity = 0;
