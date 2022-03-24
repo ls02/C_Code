@@ -311,11 +311,11 @@ namespace ls
 		
 		//查找接口
 		//找一个字符
-		size_t find(const char ch, size_t pos = 0)
+		size_t find(const char ch, size_t pos = 0)const
 		{
 			assert(pos < _size);
 
-			for (int i = 0; i < _size; i++)
+			for (size_t i = 0; i < _size; i++)
 			{
 				if (_str[i] == ch)
 				{
@@ -326,7 +326,7 @@ namespace ls
 			return npos;
 		}
 
-		size_t find(const char* s, size_t pos = 0)
+		size_t find(const char* s, size_t pos = 0)const
 		{
 			char* index = strstr(_str + pos, s);
 
